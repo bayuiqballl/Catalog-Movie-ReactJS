@@ -29,7 +29,7 @@ function SectionHome() {
   );
 }
 
-function MovieList() {
+const MovieList = () => {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
@@ -71,8 +71,7 @@ function MovieList() {
     }
   });
 
-  // console.log(digimons);
   return <div className="row">{array}</div>;
-}
+};
 
 export default SectionHome;

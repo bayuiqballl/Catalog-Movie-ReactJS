@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const Footer = () => {
   return (
-    <div class="d-flex flex-column mb-3 mt-3">
-      <footer class="footer">
+    <div className="d-flex flex-column bg-dark  text-white mt-5">
+      <footer className="footer">
         <div className="text-center">
           <span>&copy; Impact Byte</span>
         </div>

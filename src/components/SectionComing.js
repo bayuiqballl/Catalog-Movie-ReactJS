@@ -10,12 +10,13 @@ const SectionComing = () => {
       </div>
 
       <div class="row justify-content-center  ">
-        <div class="col-md-5 ml-5 text-left  mb-5">
-          <iframe
-            width="530"
-            height="315"
-            src="https://www.youtube.com/embed/D86RtevtfrA"
-          ></iframe>
+        <div class="col-md-5 text-left  mb-5">
+          <div className="embed-responsive embed-responsive-16by9">
+            <iframe
+              className="embed-responsive-item"
+              src="https://www.youtube.com/embed/D86RtevtfrA"
+            ></iframe>
+          </div>
         </div>
         <div class="col-md-5 text-left">
           <h4>

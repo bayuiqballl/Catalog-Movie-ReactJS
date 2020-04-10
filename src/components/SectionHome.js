@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
+import axios from "axios";
+
 function SectionHome() {
   return (
     <div>
@@ -19,11 +21,58 @@ function SectionHome() {
                 Coming Soon
               </Button>
             </div>
+            <DigimonList />
           </div>
         </div>
       </div>
     </div>
   );
+}
+
+function DigimonList() {
+  const [digimons, setDigimons] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.themoviedb.org/3/movie/upcoming?api_key=572e9f2c533885e3d1f8d9c7071eb429&language=en-US&page=1"
+      )
+      .then((result) => {
+        console.log(result.data);
+        setDigimons(result.data.results);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
+  const array = digimons.map((item, index) => {
+    if (index < 12) {
+      return (
+        <div class="col-md-4 my-5">
+          <div class="card" key={item.index}>
+            <img
+              src={`https://image.tmdb.org/t/p/w220_and_h330_face/${item.poster_path}`}
+              class="card-img-top"
+              alt=""
+            />
+            <div className="card-body">
+              <h5 className="card-title">{item.title}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                vote : {item.vote_average}
+              </h6>
+              <h6 className="card-subtitle mb-2 text-muted ">
+                release: {item.release_date}{" "}
+              </h6>
+            </div>
+          </div>
+        </div>
+      );
+    }
+  });
+
+  console.log(digimons);
+  return <div className="row">{array}</div>;
 }
 
 export default SectionHome;

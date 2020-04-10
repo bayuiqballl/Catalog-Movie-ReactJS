@@ -21,7 +21,7 @@ function SectionHome() {
                 Coming Soon
               </Button>
             </div>
-            <DigimonList />
+            <MovieList />
           </div>
         </div>
       </div>
@@ -29,8 +29,8 @@ function SectionHome() {
   );
 }
 
-function DigimonList() {
-  const [digimons, setDigimons] = useState([]);
+function MovieList() {
+  const [movie, setMovie] = useState([]);
 
   useEffect(() => {
     axios
@@ -39,14 +39,14 @@ function DigimonList() {
       )
       .then((result) => {
         console.log(result.data);
-        setDigimons(result.data.results);
+        setMovie(result.data.results);
       })
       .catch((error) => {
         console.log(error);
       });
   }, []);
 
-  const array = digimons.map((item, index) => {
+  const array = movie.map((item, index) => {
     if (index < 12) {
       return (
         <div class="col-md-4 my-5">
@@ -71,7 +71,7 @@ function DigimonList() {
     }
   });
 
-  console.log(digimons);
+  // console.log(digimons);
   return <div className="row">{array}</div>;
 }
 

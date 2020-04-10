@@ -14,7 +14,7 @@ const News = () => {
                 <div className="row py-5">
                     <div className="col text-white text-center py-5">
                         <h3>OUR LATEST NEWS</h3>
-                        <h1>BLOG</h1>
+                        <h1><strong>BLOG</strong></h1>
                     </div>
                 </div>
             </div>

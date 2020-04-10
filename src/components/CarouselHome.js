@@ -8,24 +8,6 @@ import Col from "react-bootstrap/Col";
 import axios from "axios";
 
 const CarouselHome = () => {
-  const MoviesList = () => {
-    const [movies, setMovies] = useState([]);
-
-    useEffect(() => {
-      axios
-        .get(
-          "https://api.themoviedb.org/3/movie/popular?api_key=572e9f2c533885e3d1f8d9c7071eb429&language=en-US&page=1"
-        )
-        .then((result) => {
-          console.log(result.data);
-          setMovies(result.data.results);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    }, []);
-  };
-
   return (
     <section className="my-red">
       <Container>

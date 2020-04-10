@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
 
-function SectionHome() {
+const SectionHome = () => {
   return (
     <div>
       <div className="container">
@@ -27,7 +27,7 @@ function SectionHome() {
       </div>
     </div>
   );
-}
+};
 
 const MovieList = () => {
   const [movie, setMovie] = useState([]);
@@ -38,7 +38,7 @@ const MovieList = () => {
         "https://api.themoviedb.org/3/movie/upcoming?api_key=572e9f2c533885e3d1f8d9c7071eb429&language=en-US&page=1"
       )
       .then((result) => {
-        console.log(result.data);
+        // console.log(result.data);
         setMovie(result.data.results);
       })
       .catch((error) => {

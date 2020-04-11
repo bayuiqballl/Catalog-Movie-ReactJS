@@ -12,6 +12,7 @@ const Home = () => {
       <SectionHome />
       <SectionComing />
       <SectionNews />
+      <Ourlogo />
     </div>
   );
 };

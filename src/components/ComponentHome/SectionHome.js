@@ -13,11 +13,11 @@ const SectionHome = () => {
               <h2 className="pb-5">WATCH MOVIES ONLINE</h2>
             </div>
             <div className="mt-4 mb-3 ml-2">
-              <Button variant="danger" className="mr-4">
+              <Button variant="outline-danger" className="mr-4">
                 Top Rate
               </Button>
-              <Button variant="danger">New Releases</Button>
-              <Button variant="danger" className="ml-4">
+              <Button variant="outline-danger">New Releases</Button>
+              <Button variant="outline-danger" className="ml-4">
                 Coming Soon
               </Button>
             </div>

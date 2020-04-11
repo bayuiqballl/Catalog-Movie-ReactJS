@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./../App.css";
+import "./../../App.css";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Row from "react-bootstrap/Row";

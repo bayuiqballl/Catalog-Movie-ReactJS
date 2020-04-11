@@ -1,10 +1,9 @@
 import React from "react";
-
-import CarouselHome from "../components/CarouselHome";
-
-import SectionHome from "./../components/SectionHome";
-import SectionComing from "./../components/SectionComing";
-import SectionNews from "./../components/SectionNews";
+import CarouselHome from "../components/ComponentHome/CarouselHome";
+import SectionHome from "./../components/ComponentHome/SectionHome";
+import SectionComing from "./../components/ComponentHome/SectionComing";
+import SectionNews from "./../components/ComponentHome/SectionNews";
+import Ourlogo from "./../components/ComponentHome/Ourlogo";
 
 const Home = () => {
   return (

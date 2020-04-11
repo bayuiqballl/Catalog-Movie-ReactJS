@@ -11,29 +11,39 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="my-red ">
-      <Navbar.Brand className="text-light" to="/">
-        Catalog Movie
-      </Navbar.Brand>
+      <Navbar.Brand className="text-light">Catalog Movie</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navbar-nav text-center mx-auto order-0">
-          <Nav.Link className="pr-3 text-light" to="#features">
-            Home
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/">
+              Home
+            </Link>
           </Nav.Link>
-          <Nav.Link className="pr-3 text-light" to="#pricing">
-            Catalog
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/Catalog">
+              Catalog
+            </Link>
           </Nav.Link>
-          <Nav.Link className="pr-3 text-light" to="#pricing">
-            News
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/News">
+              News
+            </Link>
           </Nav.Link>
-          <Nav.Link className="pr-3 text-light" to="#pricing">
-            About
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/About">
+              About
+            </Link>
           </Nav.Link>
-          <Nav.Link className="pr-3 text-light" to="/Shop">
-            Shop
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/Shop">
+              Shop
+            </Link>
           </Nav.Link>
-          <Nav.Link className="pr-3 text-light" to="#pricing">
-            Contact Us
+          <Nav.Link className="pr-3 ">
+            <Link className="text-light" to="/Contact">
+              Contact Us
+            </Link>
           </Nav.Link>
         </Nav>
         <Nav>

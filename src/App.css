@@ -40,3 +40,24 @@
 .my-red {
   background-color: rgba(35, 5, 0);
 }
+
+.logos-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.item-logos {
+  float: left;
+  margin-right: 90px;
+
+  width: 150px;
+  height: 150px;
+}
+
+.item-logos .logos-png {
+  width: 150px;
+  height: 150px;
+}

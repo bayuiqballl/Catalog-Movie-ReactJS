@@ -1,16 +1,18 @@
 import React from "react";
-import Header from "./../components/Header";
-import CarouselHome from "../components/CarouselHome";
-import Footer from "./../components/Footer";
-import SectionHome from "./../components/SectionHome";
+import CarouselHome from "../components/ComponentHome/CarouselHome";
+import SectionHome from "./../components/ComponentHome/SectionHome";
+import SectionComing from "./../components/ComponentHome/SectionComing";
+import SectionNews from "./../components/ComponentHome/SectionNews";
+import Ourlogo from "./../components/ComponentHome/Ourlogo";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <CarouselHome />
       <SectionHome />
-      <Footer />
+      <SectionComing />
+      <SectionNews />
+      <Ourlogo />
     </div>
   );
 };

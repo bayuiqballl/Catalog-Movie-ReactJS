@@ -5,7 +5,7 @@ function SectionHome() {
   return (
     <div>
       <div className="container">
-        <div className="row  ">
+        <div className="row">
           <div className="col">
             <div className="mt-5 border-bottom">
               <h2 className="pb-5">WATCH MOVIES ONLINE</h2>

@@ -2,9 +2,9 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 
-import Photo1 from './../assets/img/about/team1.jpg';
-import Photo2 from './../assets/img/about/team2.jpg';
-import Photo3 from './../assets/img/about/team3.jpg';
+import Photo1 from './../assets/img/about/bayu.png';
+import Photo2 from './../assets/img/about/zaki.png';
+import Photo3 from './../assets/img/about/rubi.png';
 
 const About = () => {
     return (
@@ -132,21 +132,21 @@ const About = () => {
                             <div className="row mt-5">
                                 <div className="col text-center">
                                     <img src={Photo1} alt=""/>
-                                    <h4 className="text-danger"><strong>Mark Jonshon</strong></h4>
+                                    <h4 className="text-danger"><strong>Bayu Ikbal</strong></h4>
                                     <p className="text-secondary">Founder, Owner</p>
                                     <p>Turpis egestas integer eget 
                                     praesent tristique magna</p>
                                 </div>
                                 <div className="col text-center">
                                     <img src={Photo2} alt=""/>
-                                    <h4 className="text-danger"><strong>Alice Lin</strong></h4>
+                                    <h4 className="text-danger"><strong>Zaki Khairi</strong></h4>
                                     <p className="text-secondary">Web Designer</p>
                                     <p>Turpis egestas integer eget 
                                     praesent tristique magna</p>
                                 </div>
                                 <div className="col text-center">
                                     <img src={Photo3} alt=""/>
-                                    <h4 className="text-danger"><strong>Mark Jonshon</strong></h4>
+                                    <h4 className="text-danger"><strong>Rubi Anggoro</strong></h4>
                                     <p className="text-secondary">Software Enginers</p>
                                     <p>Turpis egestas integer eget 
                                     praesent tristique magna</p>

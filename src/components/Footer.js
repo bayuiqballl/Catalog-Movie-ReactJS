@@ -7,11 +7,11 @@ export const Footer = () => {
     <div className="d-flex flex-column bg-dark  text-white mt-5">
       <footer className="container-fluid">
         <div className="row py-5">
-          <div className="col">
+          <div className="col-sm-12 col-md-2">
             <img src={Logo} alt=""/>
             <p><small>MOOV Center is a Responsive PrestaShop Theme best suitable for VIDEO, MOVIE, NEWS, MAGAZINE, BLOG or REVIEW SITES.&copy;Impect Byte</small></p>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-2">
             <h5><strong>CATAGORIES</strong></h5>
             <br/>
             <p><small>PREMIUM VIDEOS</small></p>
@@ -21,7 +21,7 @@ export const Footer = () => {
             <p><small>TV SHOWS</small></p>
             <p><small>POPULAR SHOWS</small></p>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-2">
             <h5><strong>INFORMATION</strong></h5>
             <br/>
             <p><small>ABOUT US</small></p>
@@ -32,7 +32,7 @@ export const Footer = () => {
             <p><small>SITE MAP</small></p>
             <p><small>STORIES</small></p>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-2">
             <h5><strong>YOUR ACCOUNT</strong></h5>
             <br/>
             <p><small>PPERSONAL INFO</small></p>
@@ -42,13 +42,19 @@ export const Footer = () => {
             <p><small>ADDRESSES</small></p>
             <p><small>MY WHISLIST</small></p>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-2">
             <h5><strong>CONTACTS</strong></h5>
             <br/>
             <p><small>INDONESIA</small></p>
             <p><small>JAKARTA</small></p>
             <p className="text-danger"><strong>021-089-029</strong></p>
             <p><small>demo@demo.com</small></p>
+          </div>
+          <div className="col-sm-12 col-md-2">
+            <h5><strong>Credits</strong></h5>
+            <br/>
+            <p><small>&copy; 2020 IMPECT BYTE. All Rights Reserved</small></p>
+            <p><small>Created by MOOV CENTER</small></p>
           </div>
         </div>
       </footer>

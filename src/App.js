@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Catalog from "./pages/Catalog";
 import News from "./pages/News";
 import Footer from "./components/Footer";
+import Unsplash from "./pages/Unsplash";
 // import Shop from "./pages/Shop";
 // import Contact from "./pages/Contact";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/News"><News/></Route>
           <Route path="/Shop"></Route>
           <Route path="/Contact"></Route>
+          <Route path="/Unsplash"><Unsplash/></Route>
         </Switch>
         <Footer />
       </div>

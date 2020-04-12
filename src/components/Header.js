@@ -3,15 +3,14 @@ import "./../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import Logo from "./../assets/img/logo/logo-catalog.png";
 
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="my-red ">
-      <Navbar.Brand className="text-light">Catalog Movie</Navbar.Brand>
+      <Navbar.Brand><img src={Logo}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navbar-nav text-center mx-auto order-0">

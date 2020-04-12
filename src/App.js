@@ -8,8 +8,8 @@ import Catalog from "./pages/Catalog";
 import News from "./pages/News";
 import Footer from "./components/Footer";
 import Unsplash from "./pages/Unsplash";
-// import Shop from "./pages/Shop";
-// import Contact from "./pages/Contact";
+import Shop from "./pages/Shop";
+import Contact from "./pages/ContactUs";
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
           <Route path="/About"><About/></Route>
           <Route path="/Catalog"><Catalog/></Route>
           <Route path="/News"><News/></Route>
-          <Route path="/Shop"></Route>
-          <Route path="/Contact"></Route>
+          <Route path="/Shop"><Shop/></Route>
+          <Route path="/Contact"><Contact/></Route>
           <Route path="/Unsplash"><Unsplash/></Route>
         </Switch>
         <Footer />

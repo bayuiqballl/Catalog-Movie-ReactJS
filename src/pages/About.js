@@ -21,7 +21,7 @@ const About = () => {
                 <div className="row">
                     <div className="col">
                         <ol className="breadcrumb justify-content-center py-3">
-                            <li className="breadcrumb-item text-danger"><a>Home</a></li>
+                            <li className="breadcrumb-item text-danger">Home</li>
                             <li className="breadcrumb-item text-danger">Pages</li>
                             <li className="breadcrumb-item active">About Us</li>
                         </ol>
@@ -131,21 +131,21 @@ const About = () => {
                             <hr/>
                             <div className="row mt-5">
                                 <div className="col text-center">
-                                    <img src={Photo1}/>
+                                    <img src={Photo1} alt=""/>
                                     <h4 className="text-danger"><strong>Mark Jonshon</strong></h4>
                                     <p className="text-secondary">Founder, Owner</p>
                                     <p>Turpis egestas integer eget 
                                     praesent tristique magna</p>
                                 </div>
                                 <div className="col text-center">
-                                    <img src={Photo2}/>
+                                    <img src={Photo2} alt=""/>
                                     <h4 className="text-danger"><strong>Alice Lin</strong></h4>
                                     <p className="text-secondary">Web Designer</p>
                                     <p>Turpis egestas integer eget 
                                     praesent tristique magna</p>
                                 </div>
                                 <div className="col text-center">
-                                    <img src={Photo3}/>
+                                    <img src={Photo3} alt=""/>
                                     <h4 className="text-danger"><strong>Mark Jonshon</strong></h4>
                                     <p className="text-secondary">Software Enginers</p>
                                     <p>Turpis egestas integer eget 

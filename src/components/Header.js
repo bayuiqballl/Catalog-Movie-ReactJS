@@ -10,7 +10,7 @@ import Logo from "./../assets/img/logo/logo-catalog.png";
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="my-red ">
-      <Navbar.Brand><img src={Logo}/></Navbar.Brand>
+      <Navbar.Brand><img src={Logo} alt=""/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navbar-nav text-center mx-auto order-0">

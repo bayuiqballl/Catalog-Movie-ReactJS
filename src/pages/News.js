@@ -33,7 +33,7 @@ const News = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col text-center py-5">
-                            <img src={Photo1}/>
+                            <img src={Photo1} alt=""/>
                             <p className="mt-3 text-secondary">October 7, 2018  by Walter Myers</p>
                             <h3 className=""><strong>"BETTER CALL SAUL" WRITER OFFERS ADVICE</strong></h3>
                             <p className=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -51,7 +51,7 @@ const News = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col text-center py-5">
-                            <img src={Photo2}/>
+                            <img src={Photo2} alt=""/>
                             <p className="mt-3 text-secondary">October 7, 2018  by Walter Myers</p>
                             <h3 className=""><strong>"SINGLE PARENTS" LANDS FULL-SEASON ORDER FROM ABC</strong></h3>
                             <p className=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -69,7 +69,7 @@ const News = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col text-center py-5">
-                            <img src={Photo3}/>
+                            <img src={Photo3} alt=""/>
                             <p className="mt-3 text-secondary">October 7, 2018  by Walter Myers</p>
                             <h3 className=""><strong>"ANIMALS" CANCELED AFTER THREE SEASONS AT HBO</strong></h3>
                             <p className=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -87,7 +87,7 @@ const News = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col text-center py-5">
-                            <img src={Photo4}/>
+                            <img src={Photo4} alt=""/>
                             <p className="mt-3 text-secondary">October 7, 2018  by Walter Myers</p>
                             <h3 className=""><strong>IRON MAN'S AVENGERS 4 ARMOR MAY BE RADICALLY DIFFERENT</strong></h3>
                             <p className=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

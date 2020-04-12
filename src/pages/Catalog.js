@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
 const Catalog = () => {
   return (
     <div>
@@ -17,16 +20,35 @@ const Catalog = () => {
         </div>
       </div>
       <div
-        className="container-fluid mt-5"
+        className="container-fluid "
         style={{ backgroundColor: "#E40004" }}
       ></div>
-
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <ol className="breadcrumb justify-content-center py-3">
+              <li className="breadcrumb-item text-danger">
+                <a>Home</a>
+              </li>
+              <li className="breadcrumb-item text-danger">Catalog</li>
+            </ol>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="row  ">
           <div className="col">
             <div className="mt-5 border-bottom">
               <h2 className="pb-5">WATCH MOVIES ONLINE</h2>
             </div>
+            <Form inline className="justify-content-center   mt-5">
+              <FormControl
+                type="text"
+                placeholder="Search Movie"
+                className="mr-sm-2 pr-5  "
+              />
+              <Button variant="danger">Search</Button>
+            </Form>
             <MovieCatalog />
           </div>
         </div>

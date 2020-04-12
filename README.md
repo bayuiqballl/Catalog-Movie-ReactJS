@@ -13,5 +13,14 @@ API :
 2. UnplashAPI
 3. TheMovieDB API
 
-figma :
+Desain figma :
 [link](https://www.figma.com/file/q5KjBT5o4NtgztXfODFDy9/movie-catalog?node-id=0%3A1)
+
+Link akses web :
+[disini](https://project-weekly4-catalog-movie.netlify.com/)
+
+anggota kelompok 3 :
+
+1. Ruby
+2. Zaky
+3. Bayu

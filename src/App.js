@@ -7,8 +7,8 @@ import About from "./pages/About";
 import Catalog from "./pages/Catalog";
 import News from "./pages/News";
 import Footer from "./components/Footer";
-import Shop from "./pages/Shop";
-import Contact from "./pages/ContactUs";
+// import Shop from "./pages/Shop";
+// import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -16,12 +16,12 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/About" exact component={About} />
-          <Route path="/Catalog" exact component={Catalog} />
-          <Route path="/News" exact component={News} />
-          <Route path="/Shop" exact component={Shop} />
-          <Route path="/Contact" component={Contact} />
+          <Route exact path="/"><Home/></Route>
+          <Route path="/About"><About/></Route>
+          <Route path="/Catalog"><Catalog/></Route>
+          <Route path="/News"><News/></Route>
+          <Route path="/Shop"></Route>
+          <Route path="/Contact"></Route>
         </Switch>
         <Footer />
       </div>

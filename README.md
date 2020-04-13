@@ -22,5 +22,5 @@ Link akses web :
 anggota kelompok 3 :
 
 1. Ruby
-2. Zaky
+2. Zaki
 3. Bayu

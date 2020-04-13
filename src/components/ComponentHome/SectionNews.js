@@ -26,7 +26,7 @@ const NewsList = () => {
   useEffect(() => {
     axios
       .get(
-        "http://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=069c58dea3b6464caf46224e2bbc4d4f"
+        "https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=069c58dea3b6464caf46224e2bbc4d4f"
       )
       .then((result) => {
         console.log(result.data.articles);
